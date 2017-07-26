@@ -1,12 +1,6 @@
-strawberries = 60
-is_weekend = False
-if is_weekend:
-    if strawberries > 39:
-        print('fun!')
-    else:
-        print('not fun!')
+strawberries = 39
+is_weekend = True
+if strawberries > 39 and strawberries < 61:
+    print('not fun!')
 else:
-    if strawberries > 39 and strawberries < 61:
-        print('fun!')
-    else:
-        print('not fun!')
+    print('fun!')
